@@ -1,0 +1,47 @@
+*{
+	padding : 0;
+	margin : 0;
+}
+
+.btn-primary-outline {
+  background-color: rgba(216, 236, 245, 0.884);
+}
+
+.s {
+  background-color: rgb(61, 129, 255);
+}
+
+table.table-bordered {
+  border: 1px solid black;
+}
+table.table-bordered > thead > tr > th {
+  border: 1px solid black;
+}
+table.table-bordered > tbody > tr > td {
+  border: 1px solid black;
+}
+
+.s-label {
+  padding-top: 1rem;
+}
+
+.h {
+  background-color: rgb(20, 100, 248);
+  width: 100%;
+  color: white;
+}
+
+input{
+    color : black !important;
+}
+
+.fa.fa-arrow-left,.fa.fa-arrow-right {
+	color : blue !important; 
+}
+
+
+@media (max-width: 991px) {
+  .x {
+    padding-left: 15px !important;
+  }
+}
